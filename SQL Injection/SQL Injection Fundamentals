@@ -1,2 +1,19 @@
-**SQL Injection (SQLi)** هي ثغرة في تطبيقات الويب بتحصل لما المهاجم يحقن استعلامات SQL خبيثة في حقول الإدخال، وده بيحصل لما التطبيق مبيتحققش كويس من البيانات المدخلة، وده ممكن يسمح للمهاجم بالوصول للقاعدة البيانات أو معلومات حساسة.
+## SQL Injection (SQLi)
 
+**SQL Injection (SQLi)** هي ثغرة في تطبيقات الويب بتحصل لما المهاجم يحقن استعلامات SQL خبيثة في حقول الإدخال. ده بيحصل لما التطبيق مبيتحققش كويس من البيانات المدخلة، وده ممكن يسمح للمهاجم بالوصول إلى قاعدة البيانات أو معلومات حساسة.
+
+### Causes of SQL Injection:
+- **عدم التحقق من البيانات المدخلة**: لما الحقول المدخلة من قبل المستخدم مش متحقق منها بشكل كافي.
+- **Using unprotected SQL queries**: مثل الاستعلامات الديناميكية بدون تأمين.
+
+### Effects of SQL Injection:
+- Access to sensitive information in the database.
+- Modification or deletion of critical data.
+- Executing unauthorized commands on the server.
+
+### Prevention:
+- **Using Prepared Statements**: لتجنب تمرير الاستعلامات مباشرة.
+- **Input Validation**: باستخدام تقنيات مثل التحقق من نوع البيانات وطولها.
+- **Encryption**: لتشفير البيانات الحساسة.
+
+> Always follow best practices and keep applications up to date to ensure security.
