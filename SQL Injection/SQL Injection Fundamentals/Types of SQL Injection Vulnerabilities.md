@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4649a76f-3a39-4247-81f3-323166281e07)![image](https://github.com/user-attachments/assets/40129c7f-da2b-43be-b9b0-9422546661ce)
+![image](https://github.com/user-attachments/assets/40129c7f-da2b-43be-b9b0-9422546661ce)
 
 ### حقن SQL In-Band
 
